@@ -106,8 +106,6 @@ body {
   border: 3px solid #fff;
   border-radius: 25px;
 }
-.top-images {
-}
 .top-images__box {
   position: relative;
 }
@@ -154,6 +152,7 @@ body {
   text-align: center;
 }
 .title span {
+  font-weight: 700;
   color: #3a83e5;
 }
 .price__description {
