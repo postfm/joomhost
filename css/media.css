@@ -160,6 +160,10 @@
   .footer-form {
     margin-top: 0;
   }
+  .brands-inner {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (min-width: 890px) {
   .menu__list {
