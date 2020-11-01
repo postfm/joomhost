@@ -28,6 +28,15 @@ body {
   min-height: 87px;
 }
 
+.menu__btn {
+  width: 40px;
+  display: none;
+}
+.menu__btn div {
+  margin-bottom: 6px;
+  border-bottom: 4px solid #000;
+}
+
 .menu__list {
   display: flex;
 }
@@ -53,7 +62,7 @@ body {
   display: flex;
 }
 .top-info {
-  min-width: 570px;
+  max-width: 570px;
   margin-right: 15px;
   color: #fff;
 }
@@ -215,7 +224,7 @@ body {
   margin-bottom: 60px;
 }
 .price-tile__list {
-  margin-bottom: 140px;
+  margin-bottom: 135px;
 }
 .price-tile__list li {
   font-size: 16px;
@@ -237,4 +246,195 @@ body {
   text-align: center;
   color: #fff;
   background-color: #3a83e5;
+}
+
+.footer {
+  padding: 85px 0 130px;
+  background-color: #344458;
+  color: #718db2;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-column__logo {
+  width: 263px;
+}
+.footer__logo {
+  margin-bottom: 33px;
+}
+.footer__text {
+  padding-bottom: 33px;
+  font-size: 13px;
+  line-height: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.futer__menu {
+  width: 165px;
+}
+.footer__title {
+  margin-bottom: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #d0e4ff;
+}
+.footer__list li {
+  margin-bottom: 8px;
+}
+.footer__list a {
+  color: #718db2;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.footer__form {
+  width: 263px;
+}
+
+.footer__form input,
+.footer__form textarea {
+  width: 100%;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: transparent;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #718db2;
+}
+
+.footer__form input::placeholder,
+.footer__form textarea::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #718db2;
+}
+
+.footer__form textarea {
+  height: 85px;
+  margin-bottom: 10px;
+  padding-top: 12px;
+  resize: none;
+}
+
+.footer__form button {
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2575e7;
+  border: none;
+  cursor: pointer;
+}
+.reviews {
+  padding: 120px 0;
+  background-color: #fafafa;
+}
+.reviews-slider {
+  margin-top: 170px;
+}
+.slick-initialized .slick-slide {
+  display: flex;
+}
+.reviews-slider .slick-list {
+  margin: 0 -50px;
+}
+.reviews-slider .slick-slide {
+  margin: 0 50px;
+  margin-bottom: 70px;
+}
+.reviews-slider__slide {
+  display: flex;
+  box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+}
+.reviews-slide__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  min-height: 350px;
+  background-color: #267ae9;
+}
+.reviews-slide__avatar img {
+  border-radius: 50%;
+}
+.reviews-slide__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 330px;
+  min-height: 350px;
+  padding: 0 40px;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+.reviews-slide__text {
+  margin-bottom: 40px;
+}
+.reviews-slide__author span {
+  color: #267ae9;
+}
+.reviews-slider .slick-dots {
+  display: flex;
+  justify-content: center;
+}
+.reviews-slider .slick-dots li {
+  margin: 0 8px;
+}
+
+.reviews-slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+  background-color: #267ae9;
+  outline: none;
+}
+.reviews-slider .slick-dots li.slick-active button {
+  background-color: #fff;
+  border: 2px solid #267ae9;
+}
+
+.brands {
+  padding: 126px 0 112px;
+  background-color: #fff;
+}
+.brands-inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.brand {
+  background: url(../image/brands.jpg);
+  height: 97px;
+}
+.img1 {
+  width: 205px;
+}
+.img2 {
+  width: 222px;
+  background-position: -205px;
+}
+.img3 {
+  width: 108px;
+  background-position: -427px;
+}
+.img4 {
+  width: 182px;
+  background-position: -535px;
+}
+.img5 {
+  width: 170px;
+  background-position: -717px;
+}
+.img6 {
+  width: 216px;
+  background-position: -887px;
 }
